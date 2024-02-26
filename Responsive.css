@@ -1,0 +1,96 @@
+@media screen and (max-width: 480px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faded-text{
+        width: 10%;
+        font-size: 70px;
+        margin-left: 95px
+    }
+
+    .hero-section-sub-heading{
+        width: 30%;
+    }
+     
+    .hero-section-description{
+      width: 25%;
+    }
+
+    .hero-section-right{
+        margin-right: 72%;
+    }
+
+    .project-section{
+       display: flex;
+       flex-direction: column;
+    }
+    
+    /* skill container  */
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-container-left{
+        margin-left: -6%;
+    }
+
+    .skill-subHeading{
+        width: 60%;
+    }
+
+    .skill-container-right{
+        width: 21%;
+    }
+
+    /* contact container  */
+    .contactus-form-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactus-heading{
+       width: 15%;
+    }
+
+    .contactus-sub-heading{
+        width: 30%;
+    }
+
+    .formfield-container{
+        width: 38%;
+        margin-left: -19%;
+    }
+
+    .btn{
+        margin-left: -18%;
+    }
+
+    #submit-btn{
+        width: 15%;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+    
+    /* footer  */
+    .footer-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-faded-text{
+      width: 40%;
+      font-size: 40px;
+    }
+
+    .link-wrapper{
+        margin-left: -80%;
+    }
+
+    .icon-wrapper{
+        margin-left: -70%;
+    }
+
+}
